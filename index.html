@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>TDEE Calculator</title>
+</head>
+<body>
+
+    <div class="app-container">
+        <h1>TDEE Calculator</h1>
+        <div class="gender"><span><label for="male">Male</label><input type="radio" id="gender" name="gender" value="male" required></span>
+            <label for="Female">Female</label><input type="radio" id="gender" name="gender" value="Female"></span></div>
+            
+
+            <div class="age"><label for="age">Age</label><input type="number" id="age" required></div>
+
+            <div class="weight"><label for="weigth">Weigth(KG)</label><input type="number" id="weigth"  name="weigth" required></div>
+
+            <label for="heigth">heigth(in)</label>
+            <select id="heigth" name="heigth" size="1" multiple required>
+              <option value="60">60in</option>
+              <option value="61">61in</option>
+              <option value="62">62in</option>
+              <option value="63">63in</option>
+              <option value="64">64in</option>
+              <option value="65">65in</option>
+              <option value="66">66in</option>
+              <option value="67">67in</option>
+              <option value="68">68in</option>
+              <option value="69">69in</option>
+              <option value="70">70in</option>
+              <option value="71">71in</option>
+              <option value="72">72in</option>
+              <option value="73">73in</option>
+              <option value="74">74in</option>
+              <option value="75">75in</option>
+              <option value="76">76in</option>
+              <option value="77">77in</option>
+              <option value="78">78in</option>
+              <option value="79">79in</option>
+              <option value="80">80in</option>
+              <option value="81">81in</option>
+              <option value="82">82in</option>
+              <option value="83">83in</option>
+              <option value="84">84in</option>
+              <option value="85">85in</option>
+            </select>
+
+            <label for="activity">Activity</label required>
+            <select id="activty" name="activity" size="1"  required>
+              <option value="sedentary">sedentary</option>
+              <option value="Light Exersise">Light Exersise</option>
+              <option value="Moderate Exercise">Moderate Exercise</option>
+              <option value="Heavy Exersise">Heavy Exersise</option>
+              <option value="Athlete">Athlete</option>
+            </select>
+
+              <button type="submit" class="Btn" id="Calculate">Calculate</button>
+
+
+    </div>
+
+    <div id="output"class="output">
+        
+        
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
